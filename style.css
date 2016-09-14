@@ -1,0 +1,106 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  display:block;
+  margin: 0 auto 0 auto;
+  box-sizing: padding-box;
+  padding: 20px;
+  background-color: #194F50;
+  color: #ffffff;
+}
+header img{
+  float:left;
+  padding-right: 10px;
+  width:100px;
+  height:72px;
+}
+.header-link, .footer-link{
+  color: #ffffff;
+}
+.header-link:hover, .footer-link:hover {
+  background: #222;
+}
+p{
+  font-size: 11pt;
+  margin-top: 0px;
+}
+
+#intro{
+  text-align: center;
+}
+.introButton{
+  width: 15em;
+  height: 3em;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px auto;
+  border-style: solid;
+  box-shadow: 10px 10px 5px #888888;
+  font-style: bold;
+}
+
+section.resume{
+  display:none;
+}
+section{
+  text-align: left;
+  margin: auto 15px auto 15px;
+}
+
+h1{
+  font-size: 20pt;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 0px;
+}
+a {
+  color: #194F50;
+  text-decoration: none;
+}
+a:hover {
+  background: #817e7e;
+}
+h2{
+	font-size: 16pt;
+	line-height: 1.4em;
+	border-bottom: 2px solid black;
+}
+
+h3{
+	font-size: 12pt;
+	line-height: 1.4em;
+  margin: auto auto 5px auto;
+  float: right;
+}
+h4{
+	font-size: 13pt;
+	font-weight: 600;
+  margin: 5px auto 1px auto;
+}
+ul{
+	font-size: 11pt;
+	line-height: 1.4em;
+}
+footer{
+  padding: 10px;
+  border: 10px;
+  background-color: #194F50;
+  color: #ffffff;
+}
+a#pdf {
+  display: block;
+  float:right;
+  background: #666;
+  color: white;
+  padding: 6px 50px 6px 12px;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+a#pdf:hover {
+  background: #222;
+}
+.italics {
+  font-style: italic;
+}

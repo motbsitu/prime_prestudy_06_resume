@@ -9,6 +9,9 @@ header {
   padding: 20px;
   background-color: #194F50;
   color: #ffffff;
+  background: linear-gradient(to bottom right, #194F50, rgba(0,0,0,0));
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
 }
 header img{
   float:left;
@@ -26,7 +29,13 @@ p{
   font-size: 11pt;
   margin-top: 0px;
 }
-
+.ulColumn{
+  list-style-type: disc;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style-position: inside;//this is important addition
+}
 #intro{
   text-align: center;
 }
@@ -88,6 +97,9 @@ footer{
   border: 10px;
   background-color: #194F50;
   color: #ffffff;
+  background: linear-gradient(to top left, #194F50, rgba(0,0,0,0));
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
 }
 a#pdf {
   display: block;
